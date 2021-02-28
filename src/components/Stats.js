@@ -7,7 +7,7 @@ const TOKEN = process.env.REACT_APP_API_KEY
 
 const Stats = () => {
   const [stocksData, setStocksData] = useState([])
-  const [myStocks, setMyStocks] = useState([])
+
 
   useEffect(() => {
     fetchStockData()
@@ -37,9 +37,6 @@ const Stats = () => {
       const messageError = error.response ? error.response.data.error : error.message
       notification.error({ description: messageError })
     }
-  }
-  const fetchMyStocks = async () => {
-
   }
 
 
