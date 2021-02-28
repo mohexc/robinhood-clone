@@ -4,6 +4,7 @@ import LineGraph from './LineGrap'
 const NewFeed = () => {
   return (
     <div>
+
       <LineGraph />
     </div>
   )

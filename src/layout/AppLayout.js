@@ -1,7 +1,8 @@
 import React from 'react';
-import { Layout, Row, Col, Card } from 'antd';
+import { Layout, Row, Col } from 'antd';
 import AppHeader from './AppHeader';
 import NewFeed from '../components/NewFeed';
+import Stats from '../components/Stats';
 // import AppFooter from './AppFooter';
 // import AppSider from './AppSider';
 
@@ -18,9 +19,7 @@ const AppLayout = () => {
               <NewFeed />
             </Col>
             <Col xs={8} style={{ padding: "1rem" }}>
-              <Card>
-                List Price
-              </Card>
+              <Stats />
 
             </Col>
           </Row>

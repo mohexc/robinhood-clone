@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.row__numbers {
+  text-align: end;
+  font-weight: 500;
+}
+
+.row__price {
+  padding-bottom: 4px;
+}
+
+.row__percentage {
+  color: #5ac53b;
+}
